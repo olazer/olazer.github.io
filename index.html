@@ -1,50 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Top10</title>
-
-		<meta charset="utf-8">
-		<meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"></script>
-		
+	<title>La Francilienne</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
+		<script>
+  AOS.init();
+</script>
 
-<h1>TOP 10 des Genres à l'</h1>
-<img src="Eurovision_Song_Contest_logo.svg.png">
-<h2>(depuis 1990)</h2>
+<header>
+	<nav>
+		<a href="#"><img id="logo" src="images/logo.png"></a>
+	</nav>
+ 	
+ 	<div class="informations">
+	<div data-aos="fade-up"
+     data-aos-anchor-placement="center-center" data-aos-duration="3000" >
+	<a href="https://www.google.com/search?q=la+francilienne+brie+comte+robert&rlz=1C1CHBF_frFR848FR848&oq=la+francilien&aqs=chrome.2.0j69i57j35i39l2j69i60l2.3674j0j7&sourceid=chrome&ie=UTF-8#" target="_blank" class="btnOutline">APPELEZ-NOUS VITE</a>
+	<h1>01 64 40 27 25</h1>
+	<img class="façade" src="images/façade.jpg"></img>
+	<h6> Où nous trouver?</h6>
+	<h7> La Francilienne se situe en plein centre ville de Brie-Comte-Robert,<br> au pied de l'Eglise emblematique de la ville.</h7>
+
+	<h6> Vous voulez resérver la salle ?</h6>
+	<h7> C'est possible. Contactez-nous par teléphone.</h7>
+	<h6> Vous voulez un plat portugais²/vegan/sans gluten sur demande ?</h6>
+	<h7> Demandez-nous en avance.</h7><br>
+	<h8> ²Alentejana, Feijoada, Caldo Verde, Chevreau, Cochon de Lait... </h8>
+	</div>
+	</div>
+
+	<div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="300"
+     data-aos-duration="2300" class="carte">
+
+		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FlafrancilienneBCR&tabs=timeline&width=740&height=650&small_header=false&adapt_container_width=false&hide_cover=true&show_facepile=false&appId" width="700" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		<h1 id="formules">Accedez à nos formules du midi!</h1>
+	</div>
 
 
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="Top10.html">Top 10</a></li>
-  <li><a href="Top9.html">Top 9</a></li>
-  <li><a href="Top8.html">Top 8</a></li>
-  <li><a href="Top7.html">Top 7</a></li>
-  <li><a href="Top6.html">Top 6</a></li>
-  <li><a href="Top5.html">Top 5</a></li>
-  <li><a href="Top4.html">Top 4</a></li>
-  <li><a href="Top3.html">Top 3</a></li>
-  <li><a href="Top2.html">Top 2</a></li>
-  <li><a href="Top1.html">Top 1</a></li>
-</ul>
-
-	<button onclick="showDescription()" class="center"/></button>
-	<h5 id="h5">Cliquez sur le coeur</h5>
-
-		<div id="description">
-			<h3>Voici un classement des genres gagnants à l'Eurovision depuis 1990 définis sur le nombre de points que les chansons gagnantes ont obtenu, leur reception critique, leur charts et ventes.</h3>
+	<div class="contact">
+		<h3>Cuisine Franco-Portugaise</h2>
+		<div class="social">
+				<a href="https://www.instagram.com/lafranciliennebcr/" target="_blank" class="btnSocial">Instagram</a>
+				<a href="https://www.facebook.com/lafrancilienneBCR/#" target="_blank" class="btnSocial">Facebook</a>
+			<h4>19 Rue de l'Eglise<br>77170 Brie-Comte-Robert</h4>
 		</div>
+	</div>
 
-	<script>
- 		function showDescription(){
-        document.getElementById('description').style.visibility="visible";
-        document.getElementById('h5').style.visibility="hidden"; }
-	</script>
+	<div class="photos" >
+		<img data-aos="zoom-in" data-aos-duration="1000" id="resize" src="images/photo1.jpg">
+		<img data-aos="zoom-in" data-aos-duration="1100" id="resize" src="images/photo2.jpg">
+		<img data-aos="zoom-in" data-aos-duration="1200" id="resize" src="images/photo3.jpg">
+		<img data-aos="zoom-in" data-aos-duration="1300" id="resize" src="images/photo4.jpg">
+		<img data-aos="zoom-in" data-aos-duration="1400" id="resize" src="images/photo5.jpg">
+		<img data-aos="zoom-in" data-aos-duration="1500" id="resize" src="images/photo6.jpg">
+		
+		<h5 data-aos="zoom-in" data-aos-duration="2500"> Entrée + Plat ou Plat + Dessert = 11,90 euros <br> Entrée + Plat + Dessert = 13,90 euros</h5>
+	</div>
+
+
+	<div data-aos="zoom-in" data-aos-duration="4500" class="about">
+		<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</h3>
+	</div>
+
+
+<footer>
+	<p> © 2019 La Francilienne</p>
+
+</footer>
+
+</header>
+
+
+
 
 </body>
 </html>
