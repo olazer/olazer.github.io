@@ -97,7 +97,6 @@ h9:hover{
 	padding:25%;
 	margin-top: -20%;
 	margin-bottom: -20%;
-	opacity:0.45;
 }
 
 /**----nav----*/
@@ -275,8 +274,6 @@ iframe{
 		display: none;
 	}
 
-}
-
 h7{
 	padding-top: 1%;
 
@@ -321,7 +318,6 @@ h1{
 	padding:10%;
 	margin-top: -7%;
 	margin-bottom: -7%;
-	opacity:0.45;
 }
 
 h9{
