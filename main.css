@@ -31,7 +31,7 @@ h2{
 }
 
 footer{
-	margin-top: 90px;
+	margin-top: 20px;
 	margin-bottom: 8px;
 }
 
@@ -317,38 +317,15 @@ h1{
 	margin: auto;
 }
 
-.bonplan{
-	margin-top: none;
-	margin-bottom: none;
-	background-color: #6E441A;
-	padding: 2%;
-	border-radius: 90px;
-	text-align: center;
-	opacity:0.6;
-}
-
-.bonplan:hover{
-	transition-duration: 0.3s;
-	opacity:1;
-}
-
-h9{
-	color: white;
-	font-size: 18px;
-	opacity: 0.8;
-}
-
-
-h9:hover{
-	opacity:1;
-}
-
 .containerbonplan{
-	padding:5%;
-	margin-top: -2%;
-	margin-bottom: -2%
+	padding:10%;
+	margin-top: -7%;
+	margin-bottom: -7%;
 	opacity:0.45;
 }
 
+h9{
+	font-size: 18px;
+}
 
 }
