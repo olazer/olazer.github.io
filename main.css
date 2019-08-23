@@ -39,6 +39,26 @@ p {
 	font-size: 16px;
 }
 
+.bonplan{
+	margin:8%;
+	background-color: #6E441A;
+	padding: 2%;
+	border-radius: 90px;
+	opacity:0.65;
+	text-align: center;
+}
+
+.bonplan:hover{
+	opacity:1;
+	transition-duration: 0.3s;
+}
+
+h9{
+	color: white;
+	font-size: 40px;
+	opacity: 0.8;
+}
+
 .façade {
 	width: 30%;
 
@@ -63,6 +83,10 @@ p {
 	background-color: #6E441A;
 	color: white;
 
+}
+
+h9:hover{
+	opacity:1;
 }
 
 
