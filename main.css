@@ -32,37 +32,18 @@ h2{
 
 footer{
 	margin-top: 90px;
-	margin-bottom: 80px;
+	margin-bottom: 8px;
 }
 
 p {
 	font-size: 16px;
 }
 
-.bonplan{
-	margin:8%;
-	background-color: #6E441A;
-	padding: 2%;
-	border-radius: 90px;
-	opacity:0.65;
-	text-align: center;
-}
-
-.bonplan:hover{
-	opacity:1;
-	transition-duration: 0.3s;
-}
-
-h9{
-	color: white;
-	font-size: 40px;
-	opacity: 0.8;
-}
-
 .façade {
 	width: 30%;
 
 }
+
 
 .btnOutline{
 	display: block;
@@ -85,10 +66,39 @@ h9{
 
 }
 
+
+.bonplan{
+	margin-top: none;
+	margin-bottom: none;
+	background-color: #6E441A;
+	padding: 2%;
+	border-radius: 90px;
+	text-align: center;
+	opacity:0.6;
+}
+
+.bonplan:hover{
+	transition-duration: 0.3s;
+	opacity:1;
+}
+
+h9{
+	color: white;
+	font-size: 40px;
+	opacity: 0.8;
+}
+
+
 h9:hover{
 	opacity:1;
 }
 
+.containerbonplan{
+	padding:25%;
+	margin-top: -20%;
+	margin-bottom: -20%;
+	opacity:0.45;
+}
 
 /**----nav----*/
 
@@ -305,6 +315,39 @@ h1{
 .photos{
 	padding: auto;
 	margin: auto;
+}
+
+.bonplan{
+	margin-top: none;
+	margin-bottom: none;
+	background-color: #6E441A;
+	padding: 2%;
+	border-radius: 90px;
+	text-align: center;
+	opacity:0.6;
+}
+
+.bonplan:hover{
+	transition-duration: 0.3s;
+	opacity:1;
+}
+
+h9{
+	color: white;
+	font-size: 18px;
+	opacity: 0.8;
+}
+
+
+h9:hover{
+	opacity:1;
+}
+
+.containerbonplan{
+	padding:5%;
+	margin-top: -2%;
+	margin-bottom: -2%
+	opacity:0.45;
 }
 
 
