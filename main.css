@@ -222,7 +222,7 @@ iframe{
 	.informations{
 		text-align: center;
 		margin-left: 2%;
-		margin-top: -60%;
+		margin-top: -45%;
 		padding-bottom: 6%;
 	}
 
@@ -276,3 +276,6 @@ h1{
 
 }
 
+.informations{
+	margin-top: -40%;
+}
