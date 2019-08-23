@@ -204,6 +204,13 @@ iframe{
 }
 
 
+
+.informations{
+	margin-top: -10%;
+}
+
+
+
 @media only screen and (max-width: 991px){
 
 	 nav {
@@ -222,7 +229,7 @@ iframe{
 	.informations{
 		text-align: center;
 		margin-left: 2%;
-		margin-top: -45%;
+		margin-top: -35%;
 		padding-bottom: 6%;
 	}
 
@@ -274,8 +281,4 @@ h1{
 }
 
 
-}
-
-.informations{
-	margin-top: -40%;
 }
