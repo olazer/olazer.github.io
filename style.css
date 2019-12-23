@@ -44,10 +44,22 @@ h1{
     margin-left: 10px;
 }
 
-#navigation{
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+
+button{
+  font-family: Product Sans;
+  font-weight: 90;
+  font-size: 1.8em;
+  font-style: normal;
+  writing-mode: vertical-lr;
+  letter-spacing: 6px;
+  text-align: center;
+  background: none;
+  border:none;
+  opacity: 0.3;
+}
+
+button:hover{
+   opacity: 1;
 }
 
 li{
@@ -95,22 +107,6 @@ h3:nth-of-type(1){
   margin-right:auto;
 }
 
-button{
-  font-family: Product Sans;
-  font-weight: 90;
-  font-size: 1.8em;
-  font-style: normal;
-  writing-mode: vertical-lr;
-  letter-spacing: 6px;
-  text-align: center;
-  background: none;
-  border:none;
-  opacity: 0.3;
-}
-
-button:hover{
-   opacity: 1;
-}
 
 h3:nth-of-type(2){
   transform: rotate(-90deg);
@@ -141,47 +137,6 @@ h4:nth-of-type(2){
 }
 
 
-.button1{
-  color: white;
-  padding-left: 40%;
-  padding-top: 55%;
-  position: absolute;
-  transform: rotate(90deg);
-  width: 100%;
-}
-
-#imagesUnderthe1{
-  padding-top: 55%;
-  position: absolute;
-  transform: rotate(90deg);
-  width: 100%;
-  margin-left: 60%;
-  margin-top: 100%;
-}
-
-#imagesUnderthe2{
-  padding-top: 55%;
-  position: absolute;
-  transform: rotate(90deg);
-  width: 100%;
-  margin-left: 80%;
-  margin-top: 100%;
-}
-
-.logos{
-  margin: 2%;
-  margin-left: 1%;
-  margin-right: auto;
-  margin-bottom: auto;
-  width: 60%;
-  height: 100%;
-  padding: none;
-}
-
-.logostaille{
-  width: 14%;
-}
-
 h6{
   font-family: Product Sans;
   font-weight: 90;
@@ -198,6 +153,22 @@ h6{
   margin-top: 10%;
 }
 
+h7{
+  font-family: Product Sans;
+  font-weight: 90;
+  font-size: 1em;
+  font-style: normal;
+  letter-spacing: 6px;
+  text-align: center;
+  background: none;
+  border:none;
+  opacity: 1;
+  color: black;
+  margin-left: -40%;
+  position: absolute;
+  margin-top: 10%;
+}
+
 
 a{
   text-decoration: none;
@@ -207,6 +178,30 @@ a{
   font-stretch: 20%; 
   letter-spacing: 3px; 
   line-height: 135%;
+}
+
+.button1{
+  color: white;
+  padding-left: 40%;
+  padding-top: 55%;
+  position: absolute;
+  transform: rotate(90deg);
+  width: 100%;
+}
+
+
+.logos{
+  margin: 2%;
+  margin-left: 1%;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 60%;
+  height: 100%;
+  padding: none;
+}
+
+.logostaille{
+  width: 14%;
 }
 
 .contact{
@@ -254,18 +249,27 @@ a{
   position: absolute;
 }
 
-h7{
-  font-family: Product Sans;
-  font-weight: 90;
-  font-size: 1em;
-  font-style: normal;
-  letter-spacing: 6px;
-  text-align: center;
-  background: none;
-  border:none;
-  opacity: 1;
-  color: black;
-  margin-left: -40%;
+
+#imagesUnderthe1{
+  padding-top: 55%;
   position: absolute;
-  margin-top: 10%;
+  transform: rotate(90deg);
+  width: 100%;
+  margin-left: 60%;
+  margin-top: 100%;
+}
+
+#imagesUnderthe2{
+  padding-top: 55%;
+  position: absolute;
+  transform: rotate(90deg);
+  width: 100%;
+  margin-left: 80%;
+  margin-top: 100%;
+}
+
+#navigation{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
