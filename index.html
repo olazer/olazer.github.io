@@ -1,93 +1,246 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>La Francilienne</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-</head>
-<body>
-		<script>
-  AOS.init({
-  	
-  });
-
-</script>
-
-<header>
-	<nav>
-		<a href="#"><img id="logo" src="images/logo.png"></a>
-	</nav>
- 	
- 	<div class="informations">
-	<div data-aos="fade-up"
-     data-aos-anchor-placement="center-center"   data-aos-offset="-400" data-aos-mirror="false" data-aos-once="true" data-aos-duration="2000">
-	<a href="https://www.google.com/search?q=la+francilienne+brie+comte+robert&rlz=1C1CHBF_frFR848FR848&oq=la+francilien&aqs=chrome.2.0j69i57j35i39l2j69i60l2.3674j0j7&sourceid=chrome&ie=UTF-8#" target="_blank" class="btnOutline">APPELEZ-NOUS VITE</a>
-	<h1>01 64 40 27 25</h1>
-	<div class="fade-up"><img class="façade" src="images/façade.jpg"></img></div>
-
-	<h6> Où nous trouver?</h6>
-	<h7> La Francilienne se situe en plein centre ville de Brie-Comte-Robert,<br> au pied de l'Eglise emblematique de la ville.</h7>
-	<h6> Vous voulez resérver la salle ?</h6>
-	<h7> C'est possible. Contactez-nous par teléphone.</h7>
-	<h6> Vous voulez un plat portugais²/vegan/sans gluten sur demande ?</h6>
-	<h7> Demandez-nous en avance.</h7><br>
-	<h8> ²Alentejana, Feijoada, Caldo Verde, Chevreau, Cochon de Lait... </h8>
-	<h6> Vous voulez assoir votre bébé à table?</h6>
-	<h7> On peut faire ça.</h7>
-	<h6> Notre salade de fruits?</h6>
-	<h7> Faite avec des fruits frais!</h7>
-	<h6> Nos frites? </h6>
-	<h7> Maison.</h7>
-
-	</div>
-	</div>
-
-	<div data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="300"
-     data-aos-duration="2300" class="carte">
-
-		<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FlafrancilienneBCR&tabs=timeline&width=740&height=650&small_header=false&adapt_container_width=false&hide_cover=true&show_facepile=false&appId" width="700" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-		<h1 id="formules">Accedez à nos formules du midi!</h1>
-	</div>
-
-
-	<div class="contact">
-		<h3>Cuisine Franco-Portugaise</h2>
-		<div class="social">
-				<a href="https://www.instagram.com/lafranciliennebcr/" target="_blank" class="btnSocial">Instagram</a>
-				<a href="https://www.facebook.com/lafrancilienneBCR/#" target="_blank" class="btnSocial">Facebook</a>
-			<h4>19 Rue de l'Eglise<br>77170 Brie-Comte-Robert</h4>
-		</div>
-	</div>
-
-	<div class="photos" >
-		<img data-aos="zoom-in" data-aos-duration="1000" id="resize" src="images/photo1.jpg">
-		<img data-aos="zoom-in" data-aos-duration="1100" id="resize" src="images/photo2.jpg">
-		<img data-aos="zoom-in" data-aos-duration="1200" id="resize" src="images/photo3.jpg">
-		<img data-aos="zoom-in" data-aos-duration="1300" id="resize" src="images/photo4.jpg">
-		<img data-aos="zoom-in" data-aos-duration="1400" id="resize" src="images/photo5.jpg">
-		<img data-aos="zoom-in" data-aos-duration="1500" id="resize" src="images/photo6.jpg">
-		
-		<h5 data-aos="zoom-in" data-aos-duration="2500"> Entrée + Plat ou Plat + Dessert = 11,90 € <br> Entrée + Plat + Dessert = 13,90 €</h5>
-	</div>
-
-
-	<button data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1700" class="bonplan" onclick="myFunction()">
-		<h9>Accedez à l'application Boutic de notre ville<br>pour un bon plan exclusif!</h9>
-	</button>
-
-<footer>
-	<p> © 2019 La Francilienne</p>
-
-</footer>
-
-</header>
-
-
-</body>
+   <head>
+      <title>Ruben Azevedo</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="stylecaroussel.css">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script>
+         function changeimg(){
+         document.getElementById('projets').style.color = "#393939";
+         document.getElementById('projets').style.backgroundImage = "url(images/projets/2.png)";
+         $( "h4" ).show( "slow" );
+         $( "h5" ).hide( "slow" );
+         $( "#div1" ).hide( "slow" );
+         $( ".button1" ).hide( "slow" );
+         }
+         
+         function changeimg2(){
+         document.getElementById('projets').style.color = "white";
+         document.getElementById('couleur').style.color = "white";
+         document.getElementById('projets').style.backgroundImage = "url(images/projets/1.jpg)";
+         $( "h4" ).hide();
+         $( ".button1" ).show();
+         }
+         
+         $(document).ready(function(){
+         		$(".button1").click(function detail(){
+         			$("#div1").fadeIn(3000);
+         			$("#imagesUnderthe1").fadeIn(6000);
+         			$("#imagesUnderthe2").fadeIn(1000);
+         });
+         });
+         
+         
+      </script>
+      <script type="text/javascript" src="textcaroussel.js"></script>
+   </head>
+   <body>
+      <section>
+         <div  class="accueil">
+            <h1 div data-aos="fade-right" data-aos-duration='2000' class="lax" data-lax-translate-y="0 0, 300 -300" data-lax-opacity="0 1, 400 0">ACCUEIL</h1>
+            <div  data-aos="zoom-in" data-aos-duration='5000' id="navigation"></div>
+            <ul class="lax" data-lax-translate-y="0 0, 300 -300" data-lax-opacity="0 1, 300 0">
+               <li>PHOTOGRAPHIE</li>
+               <li>INFOGRAPHIE</li>
+               <li>MOTION GRAPHICS</li>
+               <li>GAME DESIGN</li>
+            </ul>
+         </div>
+         </div>
+      </section>
+      <section id="projets">
+         <h2 div data-aos="fade-right" data-aos-duration='2000' class="lax" data-lax-translate-y="0 0, 100 0" data-lax-opacity="0 1, 900 1" data-lax-opacity="0 1, 1800 0">PROJETS</h2>
+         <h3 data-lax-translate-y="0 0, 100 0">
+            <button div data-aos="fade-down" data-aos-duration='3000' id="couleur" onclick="changeimg()">INFOGRAPHIE</button>
+            <h4 style="display: none">
+               <img data-aos="fade-right" data-aos-duration='2000' style="width: 100%" src="images/projets/3.png">
+               <br>
+               <img style="width: 30%; padding-top:2%; padding-bottom: 3%;" src="images/logo-grafmag.jpg">
+               <p style="font-family: arial; font-size: 12px; font-stretch: 20%; letter-spacing: 5px; line-height: 135%; padding: 0; margin: 0;"> Directeur et infographiste </p>
+               <br>
+               CECI N'EST QU'UN MOCKU UP UTILISE POUR PRESENTER LE PROJET.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </h4>
+            <h4 style=" display: none">
+               <img data-aos="fade-right" data-aos-duration='2000' style="width: 100%" src="images/projets/4.png">
+               <img data-aos="fade-right" data-aos-duration='2000' style="width: 32.73%" src="images/projets/4.1.png">
+               <img data-aos="fade-right" data-aos-duration='2000' style="width: 32.73%" src="images/projets/5.png">
+               <img data-aos="fade-right" data-aos-duration='2000' style="width: 32.73%" src="images/projets/6.png">
+               <br>
+               <p style="font-family: Letter Gothic Std; font-size: 28px; padding: 0; margin-bottom: 0">Biodiversité
+               <p>
+               <p style="font-family: arial; font-size: 12px; font-stretch: 20%; letter-spacing: 5px; line-height: 135%;"> Mise en page de l'article Wikipédia </p>
+               <br>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+               proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+               qu
+            </h4>
+         </h3>
+         <h3 data-lax-translate-y="0 0, 100 0">
+            <button div data-aos="fade-up" data-aos-duration='3000' onclick="changeimg2()">PHOTOGRAPHIE<button>
+            <button class="button1" style="display: none;" onclick="detail()">UNDER THE THREE PIECE, WE LIVE, WE LOVE, WE DO.</button>
+            <div id="div1" style="display: none; position: absolute; padding-left: 30%; width: 100%;">
+               <div data-aos="fade-up-left" data-aos-duration="1000" id="imagesUnderthe1">
+                  <img style="width: 100%; margin-left: 40%;  margin-top: 20%;" src="images/projets/17.jpg">
+                  <img style="width: 100%; margin-left: 40%; margin-top: 20%;" src="images/projets/11.jpg">
+               </div>
+               <div data-aos="fade-up-left" data-aos-duration="1000" id="imagesUnderthe2">
+                  <img style="width: 100%;margin-left: 150%;margin-top: 20%;" src="images/projets/13.jpg">
+                  <img style="width: 100%;margin-left: 150%;margin-top: 20%;" src="images/projets/14.jpg">
+               </div>
+               <!-- <p style="transform: rotate(90Deg); font-family: arial; font-size: 12px; font-stretch: 20%; letter-spacing: 5px; line-height: 135%; padding: 0; margin: 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididun </p> -->
+               <div class="container">
+                  <div class='row'>
+                     <div class='col-md-offset-2 col-md-8'>
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                           <!-- Bottom Carousel Indicators -->
+                           <ol class="carousel-indicators">
+                              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#quote-carousel" data-slide-to="1"></li>
+                              <li data-target="#quote-carousel" data-slide-to="2"></li>
+                           </ol>
+                           <!-- Carousel Slides / Quotes -->
+                           <div class="carousel-inner">
+                              <!-- Quote 1 -->
+                              <div class="item active">
+                                 <blockquote>
+                                    <div class="row">
+                                       <div class="col-sm-9">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </blockquote>
+                              </div>
+                              <!-- Quote 2 -->
+                              <div class="item">
+                                 <blockquote>
+                                    <div class="row">
+                                       <div class="col-sm-9">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </blockquote>
+                              </div>
+                              <!-- Quote 3 -->
+                              <div class="item">
+                                 <blockquote>
+                                    <div class="row">
+                                       <div class="col-sm-9">
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </blockquote>
+                              </div>
+                           </div>
+                           <!-- Carousel Buttons Next/Prev -->
+                           <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                           <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </h3>
+         <span></span>
+         </div>
+      </section>
+      <section>
+         <div data-aos="fade-right" data-aos-duration='2000' class="logos">
+            <img class="logostaille" src="images/projets/1000ppi/logo1.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo2.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo4.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo6.png">
+         </div>
+         <div data-aos="fade-right" data-aos-duration='3000' class="logos">
+            <img class="logostaille" src="images/projets/1000ppi/logo1.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo2.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo4.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo6.png">
+         </div>
+         <div data-aos="fade-right" data-aos-duration='4000' class="logos">
+            <img class="logostaille" src="images/projets/1000ppi/logo1.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo2.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo4.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo6.png">
+         </div>
+         <div data-aos="fade-right" data-aos-duration='5000' class="logos">
+            <img class="logostaille" src="images/projets/1000ppi/logo1.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo2.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo4.png">
+            <img class="logostaille" src="images/projets/1000ppi/logo6.png">
+         </div>
+         <h6 style="color: black;">
+         Logos.
+         <h6>
+         <p class="logosDescription" data-aos="fade-up" data-aos-duration='3000'> Le développement de certains logos (comme ceu-ci présents) ont été realisés dans le cadre de GRAFX.<br><br>GRAFX est une association de graphisme présente sur le campus de l'Université Gustave Eiffel à Marne-la-Vallée. </p>
+         <div class="logosrestautant">
+            <img style="width:20%; position: relative; " src="images/logofrancilienne.png">
+            <img style="width:20%; position: relative; margin-top: -2%;" src="images/logofrancilienne.png">
+         </div>
+         <p class="logosDescriptionRestaurant" data-aos="fade-up" data-aos-duration='3000' data-aos-delay='6000'>D'autres sont realisés dans le cadre de commmandes: Voici 2 logos effectués pour 2 restautants. </p>
+      </section>
+      <section>
+         <h6 style="color: black;">
+         Game Design
+         <h6>
+         <p data-aos="fade-left" data-aos-duration="3000" style="margin-left: -35%; padding: 15%; margin-top: 20%; color: black;">VIDEO A VENIR QUI SERA SUR LA GAUCHE<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
+      </section>
+      <section>
+         <h2 style="color: white;" class="lax" data-aos="fade-up"  data-aos-duration="3000" data-lax-translate-y="0 0, 100 0" data-lax-opacity="0 1, 900 1" data-lax-opacity="0 1, 1800 0">CONTACT</h2>
+         <div data-aos="fade-up" data-aos-duration='3000' class="contact" ><a href="">Telecharger mon CV (à venir)</a></div>
+         <div data-aos="fade-up" data-aos-duration='4000' class="contact"><a href="">Portfolio (PDF) (à venir)</a></div>
+         <div data-aos="fade-up" data-aos-duration='5000' class="contact"><a href="https://www.instagram.com/r_azv/">Instagram</a></div>
+         <div data-aos="fade-up" data-aos-duration='6000' class="contact"><a href="https://rubenazevedophotography.tumblr.com/">Tumblr</a></div>
+         <div data-aos="fade-down" data-aos-duration='6000' class="contact"><a href="mailto:rubenpintodeazevedo@mail.com?subject=Je viens de consulter votre Portfolio">Contactez-moi via mail</a></div>
+      </section>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
 </html>
