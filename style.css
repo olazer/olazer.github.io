@@ -173,6 +173,16 @@ a {
   line-height: 135%;
 }
 
+footer{
+  background-color: #312783;
+}
+footer:nth-of-type(1){
+  font-family: arial;
+  color:white;
+  text-align:center;
+  line-height: 115%;
+}
+
 .button1 {
   color: white;
   padding-left: 40%;
